@@ -28,7 +28,7 @@ This project simulates a ransomware attack by generating random files, encryptin
 ### 3. Universal Decryption Key
 
 - **Universal Key**: 
-  - A universal decryption key is generated, which is a static key that can be used to decrypt files after encryption. The universal decryption key for this project is **NLxDQ**.
+  - A universal decryption key is generated, which is a static key that can be used to decrypt files after encryption. The universal decryption key for this project is **`NLxDQ`**.
   - This key is saved to a text file for future reference and can be reused in subsequent runs of the program.
 
 ### 4. Ransom Note
@@ -45,7 +45,7 @@ This project simulates a ransomware attack by generating random files, encryptin
 1. **Install Required Libraries**:
    - Ensure you have the following libraries installed:
      ```bash
-     pip install cryptography pillow
+     pip install cryptography pillow randomfiletree
      ```
 
 2. **Modify Target Directory**:
