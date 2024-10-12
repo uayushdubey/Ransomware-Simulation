@@ -20,7 +20,10 @@ This project simulates a ransomware attack by generating random files, encryptin
 
 ### 2. Encryption Method
 
-- **Encryption Algorithm**: The program uses the Fernet symmetric encryption from the `cryptography` library. Fernet guarantees that a message encrypted using it cannot be manipulated or read without the key.
+- **Encryption Algorithm**: The program uses the **Fernet** symmetric encryption from the `cryptography` library.
+  - **Fernet** provides a secure way to encrypt and decrypt data using a symmetric key. 
+  - It employs AES (Advanced Encryption Standard) in CBC (Cipher Block Chaining) mode for encryption, which is widely regarded as a secure and efficient encryption method.
+  - Fernet guarantees that a message encrypted using it cannot be manipulated or read without the key.
 - **Dynamic Encryption Key**: 
   - A unique key is generated at runtime for encrypting files. This key is used to encrypt and decrypt files during the session.
   - The dynamic key is stored in memory and is not saved to disk.
